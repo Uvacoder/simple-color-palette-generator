@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Color Palettte Generator</title>
+    </head>
+    <body>
+        <div class="container">
+            <section class="section">
+                <h1 class="title">Color palette generator</h1>
+                
+                <!-- generated palette is injected here -->
+                <div class="color-palette"></div>
+
+                <div class="generate">
+                    <button class="btn">Generate palette</button>
+                    <p>
+                        Or just press the <strong>"Spacebar"</strong> to
+                        generate new palettes
+                    </p>
+                </div>
+            </section>
+
+            <div class="instruction">
+                <p>
+                    Click to copy individual color - Press
+                    <strong>"C"</strong> to copy pallette
+                </p>
+            </div>
+            <!-- alert color copied -->
+            <p class="alert">Color #f9aca7 has been copied to your clipboard</p>
+        </div>
+
+        <footer>
+            <p>
+                Made by <strong>Williams Samuel</strong>. follow me on
+                <a href="https://twitter.com/williams_codes" target="_blank"
+                    >Twitter</a
+                >
+            </p>
+        </footer>
+
+        <script src="./js-libraries/color-scheme.min.js"></script>
+        <script src="./js-libraries/ntc.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>
